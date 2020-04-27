@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project A8</title>
+    <link rel="shortcut icon" href="images/logo-a8.png">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="index.html"><img class="logo" src="images/project-a8.png"></a>
+        </div>
+        <div class="menu-icon">
+          <a href="javascript:void(0)" class="fa fa-bars" onclick="openNav()"></a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn fa fa-times" onclick="closeNav()"></a>
+          <i><img class="logo-nav" src="images/project-a8.png"></i>
+          <a href="index.html" onclick="closeNav()">Home</a>
+          <a href="#about" onclick="closeNav()">About</a>
+          <a href="#team" onclick="closeNav()">Team</a>
+          <a href="javascript:void(0)" onclick="openLogin(), closeNav()">Log in</a>
+        </div>
+        <div class="header-right">
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="javascript:void(0)" onclick="openLogin()">Log in</a>
+        </div>
+      </div>
+      <div id="id01" class="modal">
+        <form class="modal-content animate" method="post">
+          <div class="imgcontainer">
+            <span onclick="closeLogin()" class="close fa fa-times"></span>
+            <img src="images/logo-a8.png">
+          </div>
+          <div class="modal-container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+          <div class="modal-container" style="background-color:#f1f1f1">
+            <button type="button" onclick="closeLogin()" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      <script type="text/javascript" src="js/style.js"></script>
+    </header>
+     <div class="top-wrapper">
+      <div class="container">
+        <h1>PROJECT-A8 PROGATE</h1>
+        <h1>Start something that matters.</h1>
+        <h2>Stop wasting valuable time with projects that just isn't you.</h2>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup"><span class="fa fa-envelope"></span>Daftar dengan Email</a>
+          <p>atau</p>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Cari tau dari mana anda mau memulai!</h2>
+        </div>
+        <div class="content">
+          <div class="lesson">
+            <img src="images/html5.png">
+            <p class="text-contents">Bahasa markah untuk menstrukturkan dan menampilkan isi dari World Wide Web, sebuah teknologi inti dari Internet.</p>
+          </div>
+          <div class="lesson">
+            <img src="images/css3.png">
+            <p class="text-contents">Aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam.</p>
+          </div>
+          <div class="lesson">
+            <img src="images/js.png">
+            <p class="text-contents">Bahasa pemrograman yang dinamis. Menciptakan halaman web yang menarik, interaktif serta merapkan berbagai fungsi pada halaman web.</p>
+          </div>
+          <div class="lesson">
+            <img src="images/php.png">
+            <p class="text-contents">Bahasa skrip yang dapat ditanamkan atau disisipkan ke dalam HTML. Banyak dipakai untuk memprogram situs web dinamis.</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div id="team" class="card-wrapper">
+      <div class="container">
+        <div class="heading">
+            <h1>THE TEAM</h1>
+            <h2>The ones who runs this website</h2>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="images/user.png">
+            <h3>Ahmad Miftahul Zaki</h3>
+            <p>Medan</p>
+            <p>miv.zacky@gmail.com</p>
+            <button><i class="fa fa-envelope"></i> Contact</button>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="images/user.png">
+            <h3>Abd Qayyum</h3>
+            <p>makassar</p>
+            <p>abdpatta007@gmail.com</p>
+            <button><i class="fa fa-envelope"></i> Contact</button>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="images/user.png">
+            <h3>Karyadi Monikeun</h3>
+            <p>Aceh Besar</p>
+            <p>karyadimonikeun@gmail.com</p>
+            <button><i class="fa fa-envelope"></i> Contact</button>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="images/user.png">
+            <h3>Ahmar Malawe</h3>
+            <p>Ternate</p>
+            <p>ahmar.malawe@gmail.com</p>
+            <button><i class="fa fa-envelope"></i> Contact</button>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="images/user.png">
+            <h3>Wildan</h3>
+            <p>-</p>
+            <p>-</p>
+            <button><i class="fa fa-envelope"></i> Contact</button>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
+          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+        </div>
+        <span class="btn message" onclick="openLogin()">Mulai Belajar</span>
+      </div>
+    </div>
+    <footer>
+      <p>Powered by&nbsp;<a href="https://progate.com/">
+        <img src="images/progate-logo.png" align="top"></a></p>
+      <p>copyright &copy; 2020 All rights reserved | Project - A8 Team</p>
+    </footer>
+  </body>
+</html>

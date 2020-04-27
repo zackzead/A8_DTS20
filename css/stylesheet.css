@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 170px 0 100px 0;
+  background-image: url(../images/coding.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #d44638;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 10px 25px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 55px;
+  width: 100%;
+  background-color: white;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 180px;
+  padding: 0 15px 5px 15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  transition: all 0.5s;
+}
+
+.header-left img:hover {
+  background-color: #cccccc;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 55px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #cccccc;
+  color: white;
+  line-height: 55px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon a {
+  line-height: 55px;
+  padding: 0 25px;
+  color: black;
+  float: right;
+  transition: all 0.5s;
+}
+
+.menu-icon a:hover {
+  background-color: #cccccc;
+  color: white;
+}
+
+.logo-nav {
+  width: 230px;
+  padding: 10px 15px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav span {
+  padding-top: 30px;
+}
+
+.sidenav a {
+  line-height: 55px;
+  padding: 0 25px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  background-color: #cccccc;
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 55px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #cccccc;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #808080;
+}
+
+.card-wrapper {
+  padding-bottom: 80px;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+  text-align: center;
+}
+
+.card {
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.20),0 2px 10px 0 rgba(0,0,0,0.10);
+  margin: 10px;
+  padding: 10px;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card-row {
+  float: left;
+  width: 20%;
+}
+
+.message-wrapper {
+  background-color: #f2f2f2;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #808080;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #0000FF;
+  cursor: pointer;
+  box-shadow: 0 8px #000080;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 85px;
+}
+
+footer p {
+  color: #333333;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #cccccc;
+}
