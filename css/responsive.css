@@ -27,6 +27,14 @@
   .lesson {
     width: 100%;
   }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
 
   .card-row {
     width: 50%;
