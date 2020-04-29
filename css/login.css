@@ -37,6 +37,10 @@ button:hover {
   padding: 20px;
 }
 
+.bottom {
+  background-color: #f2f2f2;
+}
+
 span.psw {
   float: right;
   padding-top: 16px;
