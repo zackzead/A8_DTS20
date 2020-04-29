@@ -24,7 +24,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 15px;
-  background-color: #f44336;
+  background-color: red;
 }
 
 .imgcontainer {
@@ -60,7 +60,7 @@ span.psw {
 
 .modal-content {
   background-color: white;
-  margin: 5% auto 15% auto;  border: 1px solid #888;
+  margin: 5% auto 15% auto;  border: 1px solid #808080;
   width: 50%;
 }
 
