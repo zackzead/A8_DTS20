@@ -61,7 +61,7 @@
   }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 570px) {
   .card-row {
     width: 100%;
   }
