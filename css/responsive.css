@@ -21,10 +21,6 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 800px) {
-  .header-right {
-    display: none;
-  }
-
   .btn {
     width: 80%;
   }
@@ -36,10 +32,6 @@
 
   .card-row {
     width: 50%;
-  }
-  
-  .menu-icon {
-    display: block;
   }
   
   .top-wrapper {
@@ -69,6 +61,14 @@
 }
 
 @media all and (max-width: 550px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
   .card-row {
     width: 100%;
   }
